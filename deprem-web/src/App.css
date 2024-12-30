@@ -1,0 +1,41 @@
+body {
+    background: url('./deprem-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #b30000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .table {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* İkon renk açıklamalarının metin rengi beyaz olacak şekilde stil */
+.icon-info {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.icon-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.icon-info li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+  
